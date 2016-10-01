@@ -1,0 +1,25 @@
+package com.sort.bucket;
+
+import java.util.HashMap;
+
+public class BucketMain {
+
+	public static void main(String[] args) {
+		String hashMapKey = "";
+		int value = 0;
+		HashMap<String, Integer> map = new HashMap<String, Integer>();
+		int[] beforeSort = GetRandom.getNum(10);
+		
+		
+		map.put(hashMapKey, value);
+		
+		
+		
+		
+		
+		
+	}
+
+
+
+}

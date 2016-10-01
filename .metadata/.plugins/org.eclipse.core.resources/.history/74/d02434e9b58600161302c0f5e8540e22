@@ -1,0 +1,11 @@
+
+public class LambdaMain {
+
+	public static void main(String[] args) {
+		
+		Sum sum1 = ()->{System.out.println("LambDa");};
+		
+		sum1.absRun();
+	}
+
+}

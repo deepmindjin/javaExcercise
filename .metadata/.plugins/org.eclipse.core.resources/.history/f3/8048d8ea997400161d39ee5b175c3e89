@@ -1,0 +1,24 @@
+package com.fibonacci;
+
+public class FibonacciUnder {
+	public static void fiboUnder(int input){
+		int first = 0;
+		int second = 1;
+		int front, back,sum;
+		front = first;
+		back = second;
+		
+		Boolean overFlow = true;
+		
+		while(overFlow){
+			System.out.println(front);
+			if(back>=input){
+				overFlow = false;
+				break;
+			}
+			sum = front + back;
+			front = back;
+			back = sum;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+
+public class LambdaMain {
+
+	public static void main(String[] args) {
+		
+		Sum sum = new Sum(){
+
+			@Override
+			public void absRun() {
+				run();
+				
+			}
+			
+		};
+		
+		sum.absRun();
+
+		Sum sum1 = ()->{run();};
+		
+		sum1.absRun();
+	}
+
+}

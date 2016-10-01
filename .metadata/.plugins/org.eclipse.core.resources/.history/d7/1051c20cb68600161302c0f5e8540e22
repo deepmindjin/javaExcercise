@@ -1,0 +1,8 @@
+
+@FunctionalInterface
+public abstract interface Sum {
+	
+	
+	public abstract int absRun(int x);
+	
+}

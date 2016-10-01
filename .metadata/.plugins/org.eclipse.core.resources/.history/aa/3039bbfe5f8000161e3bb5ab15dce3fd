@@ -1,0 +1,40 @@
+package com.sort.bucket;
+
+import java.util.HashMap;
+
+public class BucketMain {
+
+	public static void main(String[] args) {
+		int number = 0;
+		int count = 0;
+		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+		int[] beforeSort = createRandom.getNum(10);
+		
+		// Print out numbers before sort
+		System.out.print("Before Sort : ");
+		for(int num : beforeSort){
+			System.out.print(num+" ");
+		}
+		System.out.println("");
+		
+		for(int num : beforeSort){
+			int howMany = 0;
+			
+			if(!map.containsKey(num)){
+				map.put(num, count + 1);
+			}else{
+				howMany = map.get(num);
+				map.put(num, howMany+1);
+			}
+		}
+		
+		
+		
+		
+		
+		
+	}
+
+
+
+}
