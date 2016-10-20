@@ -1,0 +1,8 @@
+
+public class StrategyFactoryMethod {
+
+	public static StrategyInterface newInstance(String name){
+		if
+	}
+	
+}

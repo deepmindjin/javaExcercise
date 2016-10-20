@@ -1,0 +1,14 @@
+
+public class StrategyMain {
+
+	public static void main(String[] args) {
+		
+		// 1. 전략을 사용할 주체인 컨텍스트를 생성
+		Context context = new Context();
+		
+		Punch punch = new Punch();
+		
+		
+		
+	}
+}

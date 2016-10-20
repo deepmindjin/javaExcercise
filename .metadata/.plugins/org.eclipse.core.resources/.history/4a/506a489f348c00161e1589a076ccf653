@@ -1,0 +1,10 @@
+
+public class BMW extends Car {
+
+	@Override
+	public void setDestination(String from, String to) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

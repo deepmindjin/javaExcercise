@@ -1,0 +1,13 @@
+
+public class CarFactory {
+	
+	
+	
+	public void getInstance(String key){
+		
+		if(key.equals("포르쉐")){
+		Porsche porsche = new Porsche("Panamera");
+		Volvo volvo = new Volvo("Volvo_SUV");
+		BMW bmw = new BMW("i8");
+	}
+}

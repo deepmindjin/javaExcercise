@@ -1,0 +1,44 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ObserverMain {
+
+	public static void main(String[] args) {
+		TargetJob target = new TargetJob();
+		new Binary(target);
+		
+		Scanner scan = new Scanner(System.in);
+		while(true){
+			System.out.println("Enter a Number");
+			target.setNumber(scan.nextInt());		
+		}
+	}
+
+}
+
+class TargetJob{
+	private ArrayList<Observer> observers = new ArrayList<>();
+	int number = 0;
+	public void attatch(Observer observer){
+		observers.add(observer);
+	}
+	public void setNumber(int number){
+		this.number = number;
+	}
+}
+
+class Binary extends Observer{
+	
+	public Binary(TargetJob target){
+		this.target = target;
+	}
+	@Override
+	public void update(){
+	}
+}
+
+abstract class Observer{
+	// 내부에서 이변수를 사용해야해서 interface가 아닌 abstract class로 한다
+	protected TargetJob target;
+	public abstract void update();
+}

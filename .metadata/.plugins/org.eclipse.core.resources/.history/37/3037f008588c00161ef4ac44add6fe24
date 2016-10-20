@@ -1,0 +1,15 @@
+
+public class StrategyFactoryMethodMain {
+
+	public static void main(String[] args) {
+		Context context = new Context();
+		StrategyInterface sfm1 = new StrategyFactoryMethod.newInstance("Punch");
+		context.runContext(sfm1);
+		StrategyInterface sfm2 = new StrategyFactoryMethod.newInstance("Kick");
+		context.runContext(sfm2);
+		StrategyInterface sfm3 = new StrategyFactoryMethod.newInstance("Run");
+		context.runContext(sfm3);
+		
+	}
+
+}

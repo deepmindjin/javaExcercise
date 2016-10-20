@@ -9,20 +9,22 @@ public class AlgoMain {
 //		
 //		
 //		SumMethod output = new SumMethod(); 		
-//		System.out.println("°á°ú = "+output.sum(input));
+//		System.out.println("ï¿½ï¿½ï¿½ = "+output.sum(input));
 //		
 //		
 //		double[] randomOutput = new double [input];
-//		System.out.println("¹«ÀÛÀ§ ¼ıÀÚ "+input+"°³ : ");
+//		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ "+input+"ï¿½ï¿½ : ");
 //		for(double k : randomOutput){
 //			System.out.println(k);
 		
-		int result = numberCount(100, 4);
-		System.out.println(result);
+		String a = "asdfasdf";
+		String b = "fdsafdss";
+		Anagram ana = new Anagram(a,b);
+		System.out.println(ana.checkAnagram());
 		
-		String s = "³ª´Â Áö±İ ³²¾Æ¼­ ½ºÅÍµğ¸¦ ÇÏ°í ÀÖ½À´Ï´Ù";
-		String splitted[] = s.split(" ");
-		System.out.println(splitted[0]);
+		
+		
+		
 		
 		
 		}
@@ -34,16 +36,16 @@ public class AlgoMain {
 		char new_target = String.valueOf(target).charAt(0);
 		String nums[] = new String[max];
 		
-		//1ºÎÅÍ max±îÁöÀÇ ¼ıÀÚ¸¦ String typeÀ¸·Î nums[i]¿¡ ÀúÀåÇÕ´Ï´Ù
-		//num_length[i-1]¿¡ °¢ ¼ıÀÚÀÇ length¸¦ ÀúÀåÇÕ´Ï´Ù
-		//count_all¿¡ ¸ğµç ¼ıÀÚÀÇ ÀÚ¸®¼ö¸¦ ÀúÀåÇÕ´Ï´Ù
+		//1ï¿½ï¿½ï¿½ï¿½ maxï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ String typeï¿½ï¿½ï¿½ï¿½ nums[i]ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½
+		//num_length[i-1]ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ lengthï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½
+		//count_allï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½
 		for(int i=1;i<=max;i++){
 			nums[i-1] = String.valueOf(i);
 			count_all += nums[i-1].length();
 			
 		}
 		
-		//nums_splitted¿¡ ¸ğµç ¼ıÀÚ¸¦ splitÇØ¼­ ÀúÀåÇÕ´Ï´Ù
+		//nums_splittedï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ splitï¿½Ø¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½
 		char nums_splitted[] = new char[count_all];
 		int array_length = 0;
 		int array_count = 0;
@@ -95,7 +97,7 @@ public class AlgoMain {
 //		String numbers[] = new String[max];
 //		
 //		for(int i = 0;i<=max;i++){
-//			strnum = String.valueOf(i); //¼ıÀÚ¸¦ String typeÀ¸·Î º¯Çü
+//			strnum = String.valueOf(i); //ï¿½ï¿½ï¿½Ú¸ï¿½ String typeï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 //			numberBefore += strnum.length();
 //			strnum = strnum.replace(strTarget, "  ");
 //			numberAfter += strnum.length();
@@ -112,10 +114,10 @@ public class AlgoMain {
 	
 	
 	
-	// 1. ÇÔ¼öÀÇ ÀÌ¸§Àº sum()
-	// 2. 1°³ÀÇ intÇü ¼ıÀÚ¸¦ ÀÔ·ÂÀ¸·Î ¹Ş´Â´Ù
-	// 3. 1ºÎÅÍ ÀÔ·Â¹ŞÀº ¼ıÀÚ°ª±îÁö ´õÇØ¼­ ¸®ÅÏÇØÁØ´Ù
-	// 4. main ÇÔ¼ö¿¡¼­ ÇØ´ç ÇÔ¼ö¸¦ È£ÃâÇÏ¿© °á°ú°ªÀ» Ãâ·ÂÇÑ´Ù
+	// 1. ï¿½Ô¼ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½ sum()
+	// 2. 1ï¿½ï¿½ï¿½ï¿½ intï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ş´Â´ï¿½
+	// 3. 1ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·Â¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú°ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø´ï¿½
+	// 4. main ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ø´ï¿½ ï¿½Ô¼ï¿½ï¿½ï¿½ È£ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½
 	
 
 }

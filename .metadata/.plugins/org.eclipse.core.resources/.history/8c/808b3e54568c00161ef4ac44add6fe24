@@ -1,0 +1,19 @@
+
+public class StrategyMain {
+
+	public static void main(String[] args) {
+		
+		// 1. 전략을 사용할 주체인 컨텍스트를 생성
+		Context context = new Context();
+		
+		Punch punch = new Punch();
+		context.runContext(punch);
+		
+		Kick kick = new Kick();
+		context.runContext(kick);
+
+		Run run = new Run();
+		context.runContext(run);
+		
+	}
+}

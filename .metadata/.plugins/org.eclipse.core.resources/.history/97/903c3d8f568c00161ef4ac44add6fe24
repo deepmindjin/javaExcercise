@@ -1,0 +1,22 @@
+
+public class StrategyMain {
+
+	public static void main(String[] args) {
+		
+		StrategyInterface strategy = null;
+		
+		// 1. 전략을 사용할 주체인 컨텍스트를 생성
+		Context context = new Context();
+		
+		// 동일한 명령어에서 내가 입력한 다른 instance에 의해 다른 결과가 나오게 된다
+		strategy = new Punch();
+		context.runContext(punch);
+		
+		strategy = new Kick();
+		context.runContext(kick);
+
+		strategy = new Run();
+		context.runContext(run);
+		
+	}
+}

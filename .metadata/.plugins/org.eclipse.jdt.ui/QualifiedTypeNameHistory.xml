@@ -49,6 +49,6 @@
 <fullyQualifiedTypeName name="city.gu.Gangnam"/>
 <fullyQualifiedTypeName name="city.City"/>
 <fullyQualifiedTypeName name="animals.Animal"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

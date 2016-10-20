@@ -1,0 +1,16 @@
+
+public class CarFactory {
+	
+	Porsche porsche = new Porsche("Panamera");
+	porsche.setDestination("Seoul", "Sanfransico");
+	porsche.drive();
+
+	Volvo volvo = new Volvo("Volvo_SUV");
+	volvo.setDestination("FastCampus", "Hawai");
+	volvo.drive();
+	
+	BMW bmw = new BMW("i8");
+	bmw.setDestination("압구정", "신촌");
+	bmw.drive();
+	
+}

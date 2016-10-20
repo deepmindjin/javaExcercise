@@ -1,0 +1,14 @@
+
+public class FactoryMethodMain {
+
+	public static void main(String[] args) {
+		Car car1 = CarFactory.getInstance("포르쉐");
+		car1.setDestination("Seoul", "Tokyo");
+		car1.drive();
+		
+		Car car1 = CarFactory.getInstance("BMW");
+		car1.setDestination("Seoul", "SiliconVally");
+		car1.drive();
+	}
+
+}

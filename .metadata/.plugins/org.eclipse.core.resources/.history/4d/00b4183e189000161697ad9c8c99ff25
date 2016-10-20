@@ -1,0 +1,10 @@
+package com.algorithm;
+
+// 두 개의 문자열 인풋을 받아서
+// 두 개의 문자열에 포함된 캐릭터의 숫자가 같은지를 비교해서
+// 같으면 true 다르면 false 리턴하는 
+
+
+public class Anagram {
+
+}
