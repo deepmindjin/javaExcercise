@@ -1,9 +1,0 @@
-
-public class BMW extends Car {
-
-	@Override
-	public void setDestination(String from, String to) {
-		
-	}
-
-}
