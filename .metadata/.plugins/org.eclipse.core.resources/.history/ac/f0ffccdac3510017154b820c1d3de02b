@@ -1,0 +1,21 @@
+package 낙서장;
+
+public class Start {
+
+		int adjacentElementsProduct(int[] inputArray) {
+		    int result = 0;
+		    
+		    int inputNumber = inputArray.length;
+		    int regionalBiggest = 0;
+		    for(int i=1;i<inputNumber;i++){
+		    	
+		    }
+		    
+		    
+		    
+		    
+		    
+		    return result;
+		}
+
+}

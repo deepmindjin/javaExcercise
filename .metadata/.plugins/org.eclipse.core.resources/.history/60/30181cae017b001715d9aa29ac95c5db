@@ -1,0 +1,13 @@
+
+public class LottoMain {
+
+	public static void main(String[] args) {
+		MakeNum lotteryMachine = new MakeNum();
+		System.out.println("당첨 번호는/n");
+		for(int pickedNum : lotteryMachine.getLotteryArray()){
+			System.out.println(pickedNum + "번 ");	
+		}
+		System.out.println("입니다.");
+	}
+
+}

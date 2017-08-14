@@ -1,0 +1,27 @@
+package 낙서장;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int max = 0;
+		int[] array = {1, 5, 3, 8, 2};
+		
+		/*
+		 * 
+		 * 
+		 * 
+		 * 
+		 */
+		for(int candidate : array){
+			if(candidate>max){
+				max = candidate;
+			}
+		}
+		
+		
+		
+		System.out.println("max: " + max);
+}
+}

@@ -1,0 +1,23 @@
+package 낙서장;
+
+import java.util.ArrayList;
+
+public class Start {
+
+		int adjacentElementsProduct(int[] inputArray) {
+		    int result = 0;
+		    ArrayList<Integer> multiples;
+		    
+		    int inputNumber = inputArray.length;
+		    for(int i=1;i<inputNumber;i++){
+		    	
+		    }
+		    
+		    
+		    
+		    
+		    
+		    return result;
+		}
+
+}

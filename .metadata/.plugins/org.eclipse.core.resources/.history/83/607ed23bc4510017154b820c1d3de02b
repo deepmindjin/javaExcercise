@@ -1,0 +1,27 @@
+package 낙서장;
+
+public class Start {
+
+		int adjacentElementsProduct(int[] inputArray) {
+		    int result = 0;
+		    
+		    int inputNumber = inputArray.length;
+		    int regionalBiggest = 0;
+		    int newMultiple = 0;
+		    for(int i=0;i<inputNumber-1;i++){
+		    	newMultiple = inputArray[i]*inputArray[i+1];
+		    	if(i=0){
+		    		regionalBiggest = newMultiple;
+		    	}else{
+		    		if(newMultiple>regionalBiggest){
+			    		regionalBiggest = newMultiple;
+			    	}
+		    	}
+		    	
+		    }
+		    result = regionalBiggest;
+		  
+		    return result;
+		}
+
+}

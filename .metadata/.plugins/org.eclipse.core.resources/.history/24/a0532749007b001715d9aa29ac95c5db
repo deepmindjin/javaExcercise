@@ -1,0 +1,11 @@
+
+public class MakeNum {
+	private int getRandomNum(){
+		int result = 0;
+		int randomNum = (int)Math.random()*45+1;
+		
+		return result;
+	}
+	
+	public 
+}

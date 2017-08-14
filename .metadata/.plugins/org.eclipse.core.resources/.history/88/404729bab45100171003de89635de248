@@ -1,0 +1,9 @@
+package 낙서장;
+
+public class Start {
+
+		voidcheckPalindrome(String inputString){
+		    
+
+		}
+}

@@ -1,0 +1,17 @@
+
+public class MakeNum {
+	private int getRandomNum(){
+		int result = 0;
+		int randomNum = (int)Math.random()*45+1;
+		result = randomNum;
+		return result;
+	}
+	
+	public int[] getLotteryArray(){
+		int[] LotteryArray = new int[6];
+		
+		
+		
+		return LotteryArray;
+	}
+}

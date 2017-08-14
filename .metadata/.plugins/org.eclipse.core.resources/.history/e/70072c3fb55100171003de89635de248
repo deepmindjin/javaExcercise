@@ -1,0 +1,21 @@
+package 낙서장;
+
+public class Start {
+
+		void checkPalindrome(String inputString){
+		    boolean isEven = false;
+		    if(inputString.length()%2!=1){
+		    	isEven = true;
+		    }
+		    
+		    int count = 0;
+		    if(isEven){
+		    	//짝수일때
+		    }else{
+		    	//홀수일때
+		    }
+		    
+		    
+
+		}
+}

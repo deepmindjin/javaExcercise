@@ -1,0 +1,25 @@
+
+public class MakeNum {
+	public int getRandomNum(){
+		int randomNum  = (int) Math.random()*45+1;
+		return randomNum;
+	}
+	
+	public int[] getLotteryArray(){
+		int[] LotteryArray = new int[6];
+		int ranNum = 0;
+		for(int i=0;i<6;i++){
+			ranNum = this.getRandomNum();
+			if(i>0){
+				for(int j=0;j<i;j++){
+					if(LotteryArray[j]==ranNum){
+						i--;
+						break;
+					}
+				}
+			}
+			LotteryArray[i] = ranNum;
+		}		
+		return LotteryArray;
+	}
+}

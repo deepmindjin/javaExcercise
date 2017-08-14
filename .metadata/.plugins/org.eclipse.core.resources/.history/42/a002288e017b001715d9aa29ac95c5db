@@ -1,0 +1,9 @@
+
+public class LottoMain {
+
+	public static void main(String[] args) {
+		MakeNum lotteryMachine = new MakeNum();
+		for(int )
+	}
+
+}

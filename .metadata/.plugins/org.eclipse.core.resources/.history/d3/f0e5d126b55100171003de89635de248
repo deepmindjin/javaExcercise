@@ -1,0 +1,10 @@
+package 낙서장;
+
+public class Start {
+
+		void checkPalindrome(String inputString){
+		    int i = 0;
+		    
+
+		}
+}

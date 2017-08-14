@@ -1,0 +1,16 @@
+package 낙서장;
+
+public class Printer {
+	public void println(){
+		
+	};
+	public void println(){
+		
+	};
+	public void println(){
+		
+	};
+	public void println(){
+		
+	};
+}

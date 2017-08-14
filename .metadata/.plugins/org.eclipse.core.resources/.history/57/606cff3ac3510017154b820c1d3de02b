@@ -1,0 +1,18 @@
+package 낙서장;
+
+import java.util.ArrayList;
+
+public class Start {
+
+		int adjacentElementsProduct(int[] inputArray) {
+		    int result = 0;
+		    ArrayList multipleResults = new ArrayList();
+		    
+		    
+		    
+		    
+		    
+		    return result;
+		}
+
+}

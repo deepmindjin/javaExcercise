@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+public class MakeAnswer {
+	String inputNums = null;
+	Scanner scan = new Scanner(System.in);
+	inputNums = scan.nextLine();
+
+
+}

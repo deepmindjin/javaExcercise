@@ -1,0 +1,11 @@
+
+public class MakeNum {
+	public int getRandomNum(){
+		int result = 0;
+		
+		
+		
+		
+		return result;
+	}
+}

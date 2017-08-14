@@ -1,0 +1,21 @@
+package 낙서장;
+
+public class Start {
+
+		boolean checkPalindrome(String inputString){
+			boolean result = true;
+		    int count = 0;
+				    
+			while(inputString.length()/2>=1){
+			   	if(inputString.charAt(count) == inputString.charAt(inputString.length()-1)){
+				    		inputString = inputString.substring(count+1, inputString.length()-count-2);
+				    count = count + 1;
+				}else{
+					result = false;
+					return result;
+				}
+			}
+				    
+				    return result;
+		}
+}

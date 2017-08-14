@@ -1,0 +1,12 @@
+package 낙서장;
+
+public class MemberService {
+	
+	public void login(){
+		
+	};
+	
+	public void logout(){
+		
+	};
+}

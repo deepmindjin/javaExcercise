@@ -1,0 +1,18 @@
+package 낙서장;
+
+public class MemberService {
+	
+	public boolean login(String id, String password){
+		boolean return_value = false;
+		if(id.equals("hong")){
+			if(password.equals("12345")){
+				return_value = true;
+			}
+		}
+		return return_value;
+	};
+	
+	public void logout(String id){
+		
+	};
+}

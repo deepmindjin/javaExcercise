@@ -43,14 +43,10 @@ public class BbsList {
 		for (Post post : list) {
 			if (post.no == no) {
 				post.print();
-				postExist = true;
 				break;
 			}
 		}
-
-		if (!postExist) {
-			System.out.println("--- " + no + "번 째 글이 없습니다 ---");
-		}
+		System.out.println("--- " + no + "번 째 글이 없습니다 ---");
 	}
 
 	public Post getPost(int no) {

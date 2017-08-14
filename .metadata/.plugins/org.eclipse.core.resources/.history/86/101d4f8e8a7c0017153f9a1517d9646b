@@ -1,0 +1,105 @@
+import java.util.Scanner;
+
+public class BaseballMain {
+
+	public static void main(String[] args) {
+		MakeAnswer makeIt = new MakeAnswer();
+		int[] answer = makeIt.make();
+		int[] results = new int[2];
+		boolean endingFlag = true;
+		String inputString = "";
+		
+		Scanner scan = new Scanner(System.in);
+		
+		//시작
+		System.out.println("---------------------");
+		System.out.println("숫자야구를 시작합니다");
+		System.out.println(answer);
+		
+		
+		//본문
+		while(endingFlag){
+			waitingInput();
+			inputString = scan.nextLine().trim();
+			if(checkInputValidity(inputString)){
+				results = compareWithAnswer(answer, inputString);
+				if(checkEnding(results)){
+					break;
+				}
+			}
+		}
+		
+		System.out.println("축하합니다 정답입니다~");
+	}
+	
+	public static void waitingInput(){
+		System.out.println("--------------------------------");
+		System.out.println("중복없이 숫자 4자리를 넣어주세요");
+		System.out.println("--------------------------------");
+	}
+	
+	public static boolean checkInputValidity(String inputString){
+		int candidate = 0;
+		int[] withoutDuplicate = new int[4];
+		if(inputString.length()!=4){
+			System.out.println("4자리 숫자를 입력해 주세요");
+			return false;
+		}else{
+			for(int i=0;i<4;i++){
+				candidate = inputString.trim().charAt(i)-'0';
+				if(0<=candidate&&candidate<=9){
+					withoutDuplicate[i] = candidate;
+				}else{
+					System.out.println("숫자만 넣어 주세요");
+					return false;
+				}
+			}
+			for(int i=0;i<4;i++){
+				for(int j=i+1;j<4;j++){
+					if(withoutDuplicate[i]==withoutDuplicate[j]){
+						System.out.println("중복된 숫자가 있습니다");
+						return false;
+					}
+				}
+			}
+		}
+		return true;
+	}
+
+	public static int[] compareWithAnswer(int[] answer, String inputString){
+		int balls = 0;
+		int strikes = 0;
+		int[] inputNums = stringToInt(inputString);
+		for(int i=0;i<4;i++){
+			for(int j=0;j<4;j++){
+				if(inputNums[i]==answer[j]){
+					if(i==j){
+						strikes++;
+					}else{
+						balls++;
+					}
+				}
+			}
+		}
+		
+		int[] results = {strikes, balls};
+		return results;
+	}
+	
+	public static int[] stringToInt(String inputString){
+		int[] intArray = new int[4];
+		for(int i=0;i<4;i++){
+			intArray[i] = inputString.trim().charAt(i)-'0';
+		}
+		return intArray;
+	}
+	
+	public static boolean checkEnding(int[] results){
+		if(results[0]==4){
+			return true;
+		}else{
+			System.out.println("Strike는 "+results[0]+"개, Ball은 "+results[1]+"개 입니다");
+			return false;
+		}
+	}
+}

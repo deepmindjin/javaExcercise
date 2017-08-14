@@ -1,9 +1,0 @@
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.Target;
-
-@Target(ElementType.METHOD)			//CONSTRUCTOR, LOCAL VARIABLE, METHOD, PACAKAGE, PARAMETER, TYPE(CLASS) 
-@Retention()
-public @interface Annotation {
-
-}

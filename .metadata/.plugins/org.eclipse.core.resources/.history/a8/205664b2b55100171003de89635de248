@@ -1,0 +1,23 @@
+package 낙서장;
+
+public class Start {
+
+		boolean checkPalindrome(String inputString){
+			boolean result = false;
+		    boolean isEven = false;
+		    if(inputString.length()%2!=1){
+		    	isEven = true;
+		    }
+		    
+		    int count = 0;
+		    
+		    while(inputString.length()/2>1){
+		    	if(inputString.indexOf(count) == inputString.indexOf(inputString.length()-count-1)){
+		    		
+		    	}
+		    }
+		    
+		    
+		    return result;
+		}
+}

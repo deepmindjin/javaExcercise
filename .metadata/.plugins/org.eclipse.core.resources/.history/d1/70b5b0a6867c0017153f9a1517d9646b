@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class BaseballMain {
+
+	public static void main(String[] args) {
+		int[] answer = MakeAnswer.make();
+		int[] inputNums = new int[4];
+		String inputString = "";
+		
+		Scanner scan = new Scanner(System.in);
+		
+		//시작
+		System.out.println("---------------------");
+		System.out.println("숫자야구를 시작합니다");
+		waitingInput();
+		
+		//본문
+		//1.숫자 입력받기
+		inputString = scan.nextLine().trim();
+		
+		
+	}
+	
+	public void waitingInput(){
+		System.out.println("--------------------------------");
+		System.out.println("중복없이 숫자 4자리를 넣어주세요");
+	}
+	
+	public void checkInputValidity(String inputString){
+		int[] intArray = new int[4];
+		int candidate = 0;
+		if(inputString.length()!=4){
+			System.out.println("4자리 숫자를 입력해 주세요");
+		}else{
+			for(int i=0;i<4;i++){
+				candidate = inputString.trim().charAt(i)-'0';
+				if(0<=candidate&&candidate<=9){
+					
+				}else{
+					
+				}
+			}
+		}
+	}
+
+}

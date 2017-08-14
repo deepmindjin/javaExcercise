@@ -1,0 +1,17 @@
+package 낙서장;
+
+public class Start {
+
+		private static final String ArrayList = null;
+
+		int adjacentElementsProduct(int[] inputArray) {
+		    int result = 0;
+		    ArrayList 
+		    
+		    
+		    
+		    
+		    return result;
+		}
+
+}

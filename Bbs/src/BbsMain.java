@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 
 public class BbsMain {
-	// ÀÌ ³»ºÎ¿¡ Å¬·¡½º°¡ »ý¼ºµÇ¸é
-	// BbsMain$Post.class¶ó°í »ý¼ºÀÌ µÈ´Ù
 	
 //	static Post[] postList = new Post[100];
 	
@@ -10,38 +8,36 @@ public class BbsMain {
 		
 		ArrayList<Post> postList = new ArrayList<>();
 	
-		//¹ØÀÇ 2ÁÙÀº array llist¸¦ »ç¿ëÇÏÁö ¾ÊÀ» ¶§
 //		BbsMain bbsMain = new BbsMain();
 //		bbsMain.postList = new Post[3];
 //				
-		// ÅØ½ºÆ® ÇÊµå¸¦ °¡»óÀ¸·Î ¸¸µé¾î¼­ »ç¿ëÁß....
 //		Post post1 = new Post();
-//		post1.title = "Á¦¸ñ";
-//		post1.writer = "È«±æµ¿";
+//		post1.title = "ï¿½ï¿½ï¿½ï¿½";
+//		post1.writer = "È«ï¿½æµ¿";
 //		post1.date = "2016-09-08";
-//		post1.contents = "ÄÚµùÀ» ¿­½ÉÈ÷ ¹è¿ìÀÚ :)";
+//		post1.contents = "ï¿½Úµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ :)";
 
 		
 //		Post post2 = new Post();
-//		post2.title = "¾ÆÄ§";
-//		post2.writer = "ÀåÈ«¼®";
+//		post2.title = "ï¿½ï¿½Ä§";
+//		post2.writer = "ï¿½ï¿½È«ï¿½ï¿½";
 //		post2.date = "2016-09-08";
-//		post2.contents = "¾îÁ¦¸ÔÀº »ø·¯µå´Â Âü ¸ÀÀÖ¾ú´Ù";
+//		post2.contents = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½";
 
 		
 //		Post post3 = new Post();
-//		post3.title = "Á¡½É";
-//		post3.writer = "ÀåÈ«¼®";
+//		post3.title = "ï¿½ï¿½ï¿½ï¿½";
+//		post3.writer = "ï¿½ï¿½È«ï¿½ï¿½";
 //		post3.date = "2016-09-08";
-//		post3.contents = "¿À´ÃÀº ¹» ¸ÔÀ¸¸é Àß¸Ô¾ú´Ù´Â ¼Ò¹®ÀÌ ³¯±î?";
+//		post3.contents = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß¸Ô¾ï¿½ï¿½Ù´ï¿½ ï¿½Ò¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½?";
 		
 //		postList[0] = post1;
 //		postList[1] = post2;
 //		postList[2] = post3;		
 		
-		Post post1 = new Post("Á¦¸ñ","È«±æµ¿","2016-09-08","ÄÚµùÀ» ¿­½ÉÈ÷ ¹è¿ìÀÚ:)");
-		Post post2 = new Post("¾ÆÄ§", "ÀåÈ«¼®", "2016-09-08","¾îÁ¦¸ÔÀº »ø·¯µå´Â Âü ¸ÀÀÖ¾ú´Ù");
-		Post post3 = new Post("Á¡½É", "ÀåÈ«¼®", "2016-09-08", "¿À´ÃÀº ¹» ¸ÔÀ¸¸é Àß ¸Ô¾ú´Ù´Â ¼Ò¹®ÀÌ ³¯±î?");
+		Post post1 = new Post("ï¿½ï¿½ï¿½ï¿½","È«ï¿½æµ¿","2016-09-08","ï¿½Úµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½:)");
+		Post post2 = new Post("ï¿½ï¿½Ä§", "ï¿½ï¿½È«ï¿½ï¿½", "2016-09-08","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½");
+		Post post3 = new Post("ï¿½ï¿½ï¿½ï¿½", "ï¿½ï¿½È«ï¿½ï¿½", "2016-09-08", "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ô¾ï¿½ï¿½Ù´ï¿½ ï¿½Ò¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½?");
 	
 		postList.add(post1);
 		postList.add(post2);
@@ -58,18 +54,18 @@ public class BbsMain {
 	}
 }
 
-// ±Û ÇÏ³ª¸¦ °¡Áø Å¬·¡½º 
+// ï¿½ï¿½ ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ 
 class Post{
 	
-	// ±Û¹øÈ£
+	// ï¿½Û¹ï¿½È£
 	int no;
-	// Á¦¸ñ 
+	// ï¿½ï¿½ï¿½ï¿½ 
 	String title;
-	// ÀÛ¼ºÀÚ
+	// ï¿½Û¼ï¿½ï¿½ï¿½
 	String writer;
-	// ÀÛ¼ºÀÏÀÚ
+	// ï¿½Û¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	String date;
-	// ³»¿ë
+	// ï¿½ï¿½ï¿½ï¿½
 	String contents;
 	
 	public Post(){
@@ -78,7 +74,7 @@ class Post{
 		writer = "";
 		date = "";
 		contents = "";
-		System.out.println("post instance°¡ »ý¼ºµÇ¾ú½À´Ï´Ù");
+		System.out.println("post instanceï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½");
 	}
 	
 	public Post(String title, String writer, String date, String contents){
@@ -87,7 +83,7 @@ class Post{
 		this.writer = writer;
 		this.date = date;
 		this.contents = contents;
-		System.out.println("post instance°¡ »ý¼ºµÇ¾ú½À´Ï´Ù");
+		System.out.println("post instanceï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½");
 	}
 	
 	public void print(){
