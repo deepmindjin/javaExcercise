@@ -1,0 +1,57 @@
+-------------------------------------------------------
+PROVINCE(N-Gyeongsang) cities=10 
+	GENERAL_CITY(Andong) province:N-Gyeongsang, population=168226, area=1521.26, kind=General	GENERAL_CITY(Gimcheon) province:N-Gyeongsang, population=142277, area=1009.5, kind=General	GENERAL_CITY(Gumi) province:N-Gyeongsang, population=420048, area=615.52, kind=General	GENERAL_CITY(Gyeongju) province:N-Gyeongsang, population=259228, area=1324.39, kind=General	GENERAL_CITY(Gyeongsan) province:N-Gyeongsang, population=257902, area=411.7, kind=General	GENERAL_CITY(Mungyeong) province:N-Gyeongsang, population=74555, area=911.17, kind=General	SPECIAL_CITY(Pohang) [Specific] province: N-Gyeongsang, population: 516497, area: 1128.76, district(2) Nam Buk 	GENERAL_CITY(Sangju) province:N-Gyeongsang, population=101729, area=1254.83, kind=General	GENERAL_CITY(Yeongcheon) province:N-Gyeongsang, population=100384, area=920.29, kind=General	GENERAL_CITY(Yeongju) province:N-Gyeongsang, population=109281, area=669.05, kind=General
+-------------------------------------------------------
+PROVINCE(Gyeonggi) cities=28 
+	SPECIAL_CITY(Ansan) [Specific] province: Gyeonggi, population: 689326, area: 149.06, district(2) Danwon Sangrok 	GENERAL_CITY(Anseong) province:Gyeonggi, population=182784, area=553.47, kind=General	SPECIAL_CITY(Anyang) [Specific] province: Gyeonggi, population: 598392, area: 58.46, district(2) Dongan Manan 	GENERAL_CITY(Bucheon) province:Gyeonggi, population=851245, area=53.4, kind=General	GENERAL_CITY(Dongducheon) province:Gyeonggi, population=98062, area=95.66, kind=General	GENERAL_CITY(Gimpo) province:Gyeonggi, population=364808, area=276.64, kind=General	SPECIAL_CITY(Goyang) [Specific] province: Gyeonggi, population: 1040648, area: 267.31, district(3) Deokyang Ilsandong Ilsanseo 	GENERAL_CITY(Gunpo) province:Gyeonggi, population=284735, area=36.36, kind=General	GENERAL_CITY(Guri) province:Gyeonggi, population=194298, area=33.3, kind=General	GENERAL_CITY(Gwacheon) province:Gyeonggi, population=62929, area=35.86, kind=General	GENERAL_CITY(Gwangju) province:Gyeonggi, population=328940, area=430.96, kind=General	GENERAL_CITY(Gwangmyeong) province:Gyeonggi, population=339071, area=38.5, kind=General	GENERAL_CITY(Hanam) province:Gyeonggi, population=213028, area=93.07, kind=General	GENERAL_CITY(Hwaseong) province:Gyeonggi, population=644498, area=687.54, kind=General	GENERAL_CITY(Icheon) province:Gyeonggi, population=210565, area=531.09, kind=General	GENERAL_CITY(Namyangju) province:Gyeonggi, population=662183, area=458.54, kind=General	GENERAL_CITY(Osan) province:Gyeonggi, population=208873, area=42.76, kind=General	GENERAL_CITY(Paju) province:Gyeonggi, population=431035, area=672.57, kind=General	GENERAL_CITY(Pocheon) province:Gyeonggi, population=154381, area=826.5, kind=General	GENERAL_CITY(Pyeongtaek) province:Gyeonggi, population=472141, area=454.62, kind=General	SPECIAL_CITY(Seongnam) [Specific] province: Gyeonggi, population: 974755, area: 141.82, district(3) Bundang Sujeong Jungwon 	GENERAL_CITY(Siheung) province:Gyeonggi, population=403398, area=135.02, kind=General	SPECIAL_CITY(Suwon) [Specific] province: Gyeonggi, population: 1194276, area: 121.09, district(4) Gwonseon Yeongtong Jangan Paldal 	GENERAL_CITY(Uijeongbu) province:Gyeonggi, population=438753, area=81.59, kind=General	GENERAL_CITY(Uiwang) province:Gyeonggi, population=156410, area=54.0, kind=General	GENERAL_CITY(Yangju) province:Gyeonggi, population=205977, area=309.77, kind=General	GENERAL_CITY(Yeoju) province:Gyeonggi, population=111558, area=608.64, kind=General	SPECIAL_CITY(Yongin) [Specific] province: Gyeonggi, population: 991622, area: 591.36, district(3) Gihung Suji Cheoin 
+-------------------------------------------------------
+PROVINCE(S-Chungcheong) cities=8 
+	GENERAL_CITY(Asan) province:S-Chungcheong, population=303043, area=542.15, kind=General	GENERAL_CITY(Boryeong) province:S-Chungcheong, population=103620, area=569.01, kind=General	SPECIAL_CITY(Cheonan) [Specific] province: S-Chungcheong, population: 619286, area: 636.22, district(2) Dongnam Seobuk 	GENERAL_CITY(Dangjin) province:S-Chungcheong, population=166782, area=694.08, kind=General	GENERAL_CITY(Gongju) province:S-Chungcheong, population=109750, area=940.36, kind=General	GENERAL_CITY(Gyeryong) province:S-Chungcheong, population=42737, area=60.74, kind=General	GENERAL_CITY(Nonsan) province:S-Chungcheong, population=123094, area=554.85, kind=General	GENERAL_CITY(Seosan) province:S-Chungcheong, population=170810, area=740.66, kind=General
+-------------------------------------------------------
+PROVINCE(Busan) cities=1 
+	SPECIAL_CITY(Busan) [Metropolitan] province: Busan, population: 3496779, area: 765.94, district(16) Buk Busanjin Dong Dongnae Gangseo Geumjeong Haeundae Jung Nam Saha Sasang Seo Suyeong Yeongdo Yeonje GijangCounty 
+-------------------------------------------------------
+PROVINCE(S-Gyeongsang) cities=8 
+	SPECIAL_CITY(Changwon) [Specific] province: S-Gyeongsang, population: 1063116, area: 736.34, district(5) Masanheowon Masanhapo Euichang Seongsan Jinhae 	GENERAL_CITY(Geoje) province:S-Gyeongsang, population=256979, area=401.61, kind=General	GENERAL_CITY(Gimhae) province:S-Gyeongsang, population=529577, area=463.28, kind=General	GENERAL_CITY(Jinju) province:S-Gyeongsang, population=347056, area=712.62, kind=General	GENERAL_CITY(Miryang) province:S-Gyeongsang, population=108322, area=799.01, kind=General	GENERAL_CITY(Sacheon) province:S-Gyeongsang, population=114854, area=398.25, kind=General	GENERAL_CITY(Tongyeong) province:S-Gyeongsang, population=138001, area=238.85, kind=General	GENERAL_CITY(Yangsan) province:S-Gyeongsang, population=318836, area=485.18, kind=General
+-------------------------------------------------------
+PROVINCE(N-Chungcheong) cities=3 
+	SPECIAL_CITY(Cheongju) [Specific] province: N-Chungcheong, population: 835802, area: 153.45, district(4) Sangdang Seowon Cheongwon Heungdeok 	GENERAL_CITY(Chungju) province:N-Chungcheong, population=208288, area=983.7, kind=General	GENERAL_CITY(Jecheon) province:N-Chungcheong, population=136389, area=883.09, kind=General
+-------------------------------------------------------
+PROVINCE(Gangwon) cities=7 
+	GENERAL_CITY(Chuncheon) province:Gangwon, population=280565, area=1116.35, kind=General	GENERAL_CITY(Donghae) province:Gangwon, population=93289, area=180.17, kind=General	GENERAL_CITY(Gangneung) province:Gangwon, population=213747, area=1040.07, kind=General	GENERAL_CITY(Samcheok) province:Gangwon, population=70120, area=1185.86, kind=General	GENERAL_CITY(Sokcho) province:Gangwon, population=81797, area=105.0, kind=General	GENERAL_CITY(Taebaek) province:Gangwon, population=46892, area=303.57, kind=General	GENERAL_CITY(Wonju) province:Gangwon, population=338374, area=872.56, kind=General
+-------------------------------------------------------
+PROVINCE(Daegu) cities=1 
+	SPECIAL_CITY(Daegu) [Metropolitan] province: Daegu, population: 2484688, area: 885.6, district(8) Jung Dong Seo Nam Buk Suseong Dalseo DalseongCounty 
+-------------------------------------------------------
+PROVINCE(Daejeon) cities=1 
+	SPECIAL_CITY(Daejeon) [Metropolitan] province: Daejeon, population: 1514354, area: 539.86, district(5) Dong Jung Seo Yuseong Daeduk 
+-------------------------------------------------------
+PROVINCE(N-Jeolla) cities=6 
+	GENERAL_CITY(Gimje) province:N-Jeolla, population=87658, area=544.99, kind=General	GENERAL_CITY(Gunsan) province:N-Jeolla, population=277328, area=675.38, kind=General	GENERAL_CITY(Iksan) province:N-Jeolla, population=301061, area=506.7, kind=General	GENERAL_CITY(Jeongeup) province:N-Jeolla, population=115083, area=692.93, kind=General	SPECIAL_CITY(Jeonju) [Specific] province: N-Jeolla, population: 652234, area: 206.22, district(2) Deokjin Wansan 	GENERAL_CITY(Namwon) province:N-Jeolla, population=84140, area=752.5, kind=General
+-------------------------------------------------------
+PROVINCE(Gwangju) cities=1 
+	SPECIAL_CITY(Gwangju) [Metropolitan] province: Gwangju, population: 1469583, area: 501.26, district(5) Dong Seo Nam Buk Gwangsan 
+-------------------------------------------------------
+PROVINCE(S-Jeolla) cities=5 
+	GENERAL_CITY(Gwangyang) province:S-Jeolla, population=154164, area=453.84, kind=General	GENERAL_CITY(Mokpo) province:S-Jeolla, population=237464, area=50.08, kind=General	GENERAL_CITY(Naju) province:S-Jeolla, population=105080, area=608.15, kind=General	GENERAL_CITY(Suncheon) province:S-Jeolla, population=279540, area=907.41, kind=General	GENERAL_CITY(Yeosu) province:S-Jeolla, population=288818, area=501.27, kind=General
+-------------------------------------------------------
+PROVINCE(Incheon) cities=1 
+	SPECIAL_CITY(Incheon) [Metropolitan] province: Incheon, population: 2944009, area: 1032.41, district(10) Jung Dong Nam Yeonsu Namdong Bupyeong Gyeyang Seo GanghwaCounty OngjinCounty 
+-------------------------------------------------------
+PROVINCE(Jeju) cities=2 
+	GENERAL_CITY(Jeju) province:Jeju, population=470957, area=977.8, kind=General	GENERAL_CITY(Seogwipo) province:Jeju, population=171431, area=870.87, kind=General
+-------------------------------------------------------
+PROVINCE(Sejong) cities=1 
+	GENERAL_CITY(Sejong) province:Sejong, population=244939, area=465.23, kind=Special-Self
+-------------------------------------------------------
+PROVINCE(Seoul) cities=1 
+	SPECIAL_CITY(Seoul) [Special] province: Seoul, population: 9930478, area: 605.27, district(25) Dobong Dongdaemun Dongjak Gangbuk Gangdong Gangnam Gangseo Geumcheon Guro Gwanak Gwangjin Jongno Jung Jungnang Mapo Nowon Seocho Seodaemun Seongbuk Seongdong Songpa Yangcheon Yeongdeungpo Yongsan Eunpyeong 
+-------------------------------------------------------
+PROVINCE(Ulsan) cities=1 
+	SPECIAL_CITY(Ulsan) [Metropolitan] province: Ulsan, population: 1117656, area: 1057.5, district(5) Jung Dong Nam Buk UljuCounty 
+-------------------------------------------------------
+
+
+==========================================================
+City of Highest Population Density
+Seoul Density: 16406.69122870785
